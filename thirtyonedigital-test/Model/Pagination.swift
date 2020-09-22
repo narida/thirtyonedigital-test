@@ -15,14 +15,14 @@ struct Pagination: Codable {
     let perPage: Int
     let total: Int
     let totalPages: Int
-    let data: [User]
+    let users: [User]
     
     enum CodingKeys: String, CodingKey {
         case page
         case perPage = "per_page"
         case total
         case totalPages = "total_pages"
-        case data
+        case users = "data"
     }
     
 }

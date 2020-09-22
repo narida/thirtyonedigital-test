@@ -22,6 +22,9 @@
 		63BB081D251A317C007144CD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB081C251A317C007144CD /* Constants.swift */; };
 		63BB0821251A3519007144CD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB0820251A3519007144CD /* ApiClient.swift */; };
 		63BB0823251A6B44007144CD /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB0822251A6B44007144CD /* Pagination.swift */; };
+		63BB0827251A6D88007144CD /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB0825251A6D88007144CD /* UserTableViewCell.swift */; };
+		63BB0828251A6D88007144CD /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BB0826251A6D88007144CD /* UserTableViewCell.xib */; };
+		63BB082B251A7B4E007144CD /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB082A251A7B4E007144CD /* NSObject.swift */; };
 		6B865341BD2D513DB8DBCB00 /* Pods_thirtyonedigital_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC6A8789D5E2E010C827947 /* Pods_thirtyonedigital_test.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,9 @@
 		63BB081C251A317C007144CD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		63BB0820251A3519007144CD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		63BB0822251A6B44007144CD /* Pagination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		63BB0825251A6D88007144CD /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		63BB0826251A6D88007144CD /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		63BB082A251A7B4E007144CD /* NSObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
 		769C22F2D13A73D80F51E2AA /* Pods-thirtyonedigital-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirtyonedigital-test.release.xcconfig"; path = "Target Support Files/Pods-thirtyonedigital-test/Pods-thirtyonedigital-test.release.xcconfig"; sourceTree = "<group>"; };
 		9AC6A8789D5E2E010C827947 /* Pods_thirtyonedigital_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_thirtyonedigital_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E404295C13FAADD2362CAEE1 /* Pods-thirtyonedigital-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirtyonedigital-testTests.debug.xcconfig"; path = "Target Support Files/Pods-thirtyonedigital-testTests/Pods-thirtyonedigital-testTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +126,7 @@
 				63BB07EE251A246B007144CD /* SceneDelegate.swift */,
 				63BB0812251A248D007144CD /* Model */,
 				63BB0811251A248A007144CD /* Features */,
+				63BB0829251A7B43007144CD /* Extensions */,
 				63BB0813251A2491007144CD /* Resources */,
 				63BB07F5251A246B007144CD /* thirtyonedigital_test.xcdatamodeld */,
 			);
@@ -171,8 +178,26 @@
 				63BB07F2251A246B007144CD /* Main.storyboard */,
 				63BB07F0251A246B007144CD /* UsersTableViewController.swift */,
 				63BB081A251A255F007144CD /* UsersTableViewModel.swift */,
+				63BB0824251A6D6D007144CD /* UserTableViewCell */,
 			);
 			path = UsersTableViewController;
+			sourceTree = "<group>";
+		};
+		63BB0824251A6D6D007144CD /* UserTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				63BB0825251A6D88007144CD /* UserTableViewCell.swift */,
+				63BB0826251A6D88007144CD /* UserTableViewCell.xib */,
+			);
+			path = UserTableViewCell;
+			sourceTree = "<group>";
+		};
+		63BB0829251A7B43007144CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63BB082A251A7B4E007144CD /* NSObject.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		85F4F2DA085EEF688F2E94F4 /* Frameworks */ = {
@@ -268,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BB0828251A6D88007144CD /* UserTableViewCell.xib in Resources */,
 				63BB07FC251A246E007144CD /* LaunchScreen.storyboard in Resources */,
 				63BB07F9251A246E007144CD /* Assets.xcassets in Resources */,
 				63BB07F4251A246B007144CD /* Main.storyboard in Resources */,
@@ -354,12 +380,14 @@
 			files = (
 				63BB081B251A255F007144CD /* UsersTableViewModel.swift in Sources */,
 				63BB07F1251A246B007144CD /* UsersTableViewController.swift in Sources */,
+				63BB0827251A6D88007144CD /* UserTableViewCell.swift in Sources */,
 				63BB0821251A3519007144CD /* ApiClient.swift in Sources */,
 				63BB07F7251A246B007144CD /* thirtyonedigital_test.xcdatamodeld in Sources */,
 				63BB0819251A2550007144CD /* User.swift in Sources */,
 				63BB07ED251A246B007144CD /* AppDelegate.swift in Sources */,
 				63BB07EF251A246B007144CD /* SceneDelegate.swift in Sources */,
 				63BB0823251A6B44007144CD /* Pagination.swift in Sources */,
+				63BB082B251A7B4E007144CD /* NSObject.swift in Sources */,
 				63BB0817251A2548007144CD /* ApiRouter.swift in Sources */,
 				63BB081D251A317C007144CD /* Constants.swift in Sources */,
 			);

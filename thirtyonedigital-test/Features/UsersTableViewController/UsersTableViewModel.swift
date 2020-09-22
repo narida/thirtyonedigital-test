@@ -11,15 +11,16 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class UserTableViewModel: NSObject {
+final class UserTableViewModel: NSObject {
     
-    private let disposeBag = DisposeBag()
+    let disposeBag = DisposeBag()
+    var users = BehaviorRelay<[User]>(value: [])
     
     func getUser(page: Int) {
         ApiClient.getUsers(page: page)
-        .observeOn(MainScheduler.instance)
-        .subscribe(onNext: { users in
-            print(users)
+        .asObservable()
+        .subscribe(onNext: { [weak self] data in
+            self?.users.accept(data.users)
         }, onError: { error in
             switch error {
             case ApiError.conflict:
