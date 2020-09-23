@@ -380,6 +380,40 @@
 			<key>uniqueIdentifier</key>
 			<string>1B446065-7546-45B8-B026-7AAD10672D26</string>
 		</dict>
+		<key>2066A9FF-4668-4282-8AD9-056A414A636B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2066A9FF-4668-4282-8AD9-056A414A636B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>thirtyonedigital-test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>thirtyonedigital-test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>timeStartedRecording</key>
+			<real>622548531.64897394</real>
+			<key>timeStoppedRecording</key>
+			<real>622548534.54385102</real>
+			<key>title</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>2066A9FF-4668-4282-8AD9-056A414A636B</string>
+		</dict>
 		<key>21411FFC-22E9-4DD8-90D1-FC2A93D8EFD3</key>
 		<dict>
 			<key>className</key>
@@ -719,6 +753,74 @@
 			<string>Build thirtyonedigital-test</string>
 			<key>uniqueIdentifier</key>
 			<string>46F0ADD4-28D2-4DF9-8277-BFA6E5F9C8F0</string>
+		</dict>
+		<key>4D35163A-4DA6-41E2-8898-7DC2567F8021</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4D35163A-4DA6-41E2-8898-7DC2567F8021.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>thirtyonedigital-test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>thirtyonedigital-test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>timeStartedRecording</key>
+			<real>622548287.924371</real>
+			<key>timeStoppedRecording</key>
+			<real>622548289.43534005</real>
+			<key>title</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>4D35163A-4DA6-41E2-8898-7DC2567F8021</string>
+		</dict>
+		<key>50BFABBE-B16F-46E0-8B7A-B2873052B22A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>50BFABBE-B16F-46E0-8B7A-B2873052B22A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>thirtyonedigital-test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>thirtyonedigital-test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>timeStartedRecording</key>
+			<real>622548300.94791102</real>
+			<key>timeStoppedRecording</key>
+			<real>622548303.44659805</real>
+			<key>title</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>50BFABBE-B16F-46E0-8B7A-B2873052B22A</string>
 		</dict>
 		<key>57898AD4-21C0-47F2-828B-830F70F50B9F</key>
 		<dict>
@@ -1467,6 +1569,40 @@
 			<string>Build thirtyonedigital-test</string>
 			<key>uniqueIdentifier</key>
 			<string>9471B9E5-23B0-46AC-9C78-54CB32BE1843</string>
+		</dict>
+		<key>970416C0-82D5-4940-B6A2-7368266CD626</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>970416C0-82D5-4940-B6A2-7368266CD626.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>thirtyonedigital-test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>thirtyonedigital-test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>timeStartedRecording</key>
+			<real>622548558.69810998</real>
+			<key>timeStoppedRecording</key>
+			<real>622548561.58113801</real>
+			<key>title</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>970416C0-82D5-4940-B6A2-7368266CD626</string>
 		</dict>
 		<key>9B67BAF4-1F51-4CCF-B651-27CC5AE9354E</key>
 		<dict>
@@ -2317,6 +2453,40 @@
 			<string>Build thirtyonedigital-test</string>
 			<key>uniqueIdentifier</key>
 			<string>C8F0761D-A98E-40A1-88F7-1E4DEBFBDBD6</string>
+		</dict>
+		<key>C9D7F22C-91AD-4252-835A-6B2C2604B158</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C9D7F22C-91AD-4252-835A-6B2C2604B158.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>thirtyonedigital-test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>thirtyonedigital-test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>timeStartedRecording</key>
+			<real>622548754.95223904</real>
+			<key>timeStoppedRecording</key>
+			<real>622548755.33826196</real>
+			<key>title</key>
+			<string>Build thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>C9D7F22C-91AD-4252-835A-6B2C2604B158</string>
 		</dict>
 		<key>CED9F3ED-E2D4-4F1C-96A8-6AC259452EE1</key>
 		<dict>

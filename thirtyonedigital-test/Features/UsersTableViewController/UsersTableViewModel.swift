@@ -30,7 +30,7 @@ final class UserTableViewModel: NSObject {
         .subscribe(onNext: { [weak self] data in
             guard let strongSelf = self else { return }
             strongSelf.users.accept(strongSelf.users.value + data.users)
-            strongSelf.didReachedEnd = data.page < data.totalPages
+            strongSelf.didReachedEnd = data.users.count <= data.total
             
         }, onError: { error in
             switch error {

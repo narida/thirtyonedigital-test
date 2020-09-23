@@ -1,9 +1,9 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "110ee481a3a50bd6ebfecac5629883a5"
-build_time: [1600855413, 809619000]
+build_time: [1600855758, 904377000]
 inputs:
-  "/Users/elishanarida/Desktop/thirtyonedigital-test/thirtyonedigital-test/Features/UsersTableViewController/UsersTableViewModel.swift": [1600855003, 226408243]
-  "/Users/elishanarida/Desktop/thirtyonedigital-test/thirtyonedigital-test/Features/UsersTableViewController/UsersTableViewController.swift": [1600855413, 494248238]
+  "/Users/elishanarida/Desktop/thirtyonedigital-test/thirtyonedigital-test/Features/UsersTableViewController/UsersTableViewModel.swift": [1600855731, 634915444]
+  "/Users/elishanarida/Desktop/thirtyonedigital-test/thirtyonedigital-test/Features/UsersTableViewController/UsersTableViewController.swift": [1600855758, 688501943]
   "/Users/elishanarida/Desktop/thirtyonedigital-test/thirtyonedigital-test/Features/UsersTableViewController/UserTableViewCell/UserTableViewCell.swift": [1600800475, 482360219]
   "/Users/elishanarida/Desktop/thirtyonedigital-test/thirtyonedigital-test/Model/ApiClient.swift": [1600795830, 613783572]
   "/Users/elishanarida/Desktop/thirtyonedigital-test/thirtyonedigital-test/Model/User.swift": [1600783339, 867650576]

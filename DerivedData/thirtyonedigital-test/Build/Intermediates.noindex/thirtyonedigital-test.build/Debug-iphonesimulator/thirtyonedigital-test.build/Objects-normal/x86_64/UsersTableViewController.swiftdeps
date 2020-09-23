@@ -13,6 +13,7 @@ provides-dynamic-lookup:
 - "viewDidLoad"
 - "viewModel"
 depends-top-level:
+- !private "&&"
 - !private "-"
 - !private "<="
 - "Bool"
@@ -48,6 +49,7 @@ depends-member:
 - !private ["s7CVarArgP", "className"]
 - !private ["s7CVarArgP", "contentOffset"]
 - !private ["s7CVarArgP", "contentSize"]
+- !private ["s7CVarArgP", "didReachedEnd"]
 - !private ["s7CVarArgP", "disposeBag"]
 - !private ["s7CVarArgP", "frame"]
 - ["s7CVarArgP", "indexPathForPreferredFocusedView"]
@@ -86,6 +88,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "className"]
 - !private ["s28CustomDebugStringConvertibleP", "contentOffset"]
 - !private ["s28CustomDebugStringConvertibleP", "contentSize"]
+- !private ["s28CustomDebugStringConvertibleP", "didReachedEnd"]
 - !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
 - !private ["s28CustomDebugStringConvertibleP", "frame"]
 - !private ["s28CustomDebugStringConvertibleP", "height"]
@@ -132,6 +135,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "className"]
 - !private ["s23CustomStringConvertibleP", "contentOffset"]
 - !private ["s23CustomStringConvertibleP", "contentSize"]
+- !private ["s23CustomStringConvertibleP", "didReachedEnd"]
 - !private ["s23CustomStringConvertibleP", "disposeBag"]
 - !private ["s23CustomStringConvertibleP", "frame"]
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedView"]
@@ -181,6 +185,7 @@ depends-member:
 - !private ["SQ", "className"]
 - !private ["SQ", "contentOffset"]
 - !private ["SQ", "contentSize"]
+- !private ["SQ", "didReachedEnd"]
 - !private ["SQ", "disposeBag"]
 - !private ["SQ", "frame"]
 - !private ["SQ", "height"]
@@ -233,6 +238,7 @@ depends-member:
 - !private ["SH", "className"]
 - !private ["SH", "contentOffset"]
 - !private ["SH", "contentSize"]
+- !private ["SH", "didReachedEnd"]
 - !private ["SH", "disposeBag"]
 - !private ["SH", "frame"]
 - ["SH", "indexPathForPreferredFocusedView"]
@@ -339,6 +345,7 @@ depends-member:
 - !private ["So8NSObjectC", "className"]
 - !private ["So8NSObjectC", "contentOffset"]
 - !private ["So8NSObjectC", "contentSize"]
+- !private ["So8NSObjectC", "didReachedEnd"]
 - !private ["So8NSObjectC", "disposeBag"]
 - !private ["So8NSObjectC", "frame"]
 - ["So8NSObjectC", "indexPathForPreferredFocusedView"]
@@ -377,6 +384,7 @@ depends-member:
 - !private ["So8NSObjectP", "className"]
 - !private ["So8NSObjectP", "contentOffset"]
 - !private ["So8NSObjectP", "contentSize"]
+- !private ["So8NSObjectP", "didReachedEnd"]
 - !private ["So8NSObjectP", "disposeBag"]
 - !private ["So8NSObjectP", "frame"]
 - ["So8NSObjectP", "indexPathForPreferredFocusedView"]
@@ -421,6 +429,7 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "className"]
 - !private ["7RxSwift18ReactiveCompatibleP", "contentOffset"]
 - !private ["7RxSwift18ReactiveCompatibleP", "contentSize"]
+- !private ["7RxSwift18ReactiveCompatibleP", "didReachedEnd"]
 - !private ["7RxSwift18ReactiveCompatibleP", "disposeBag"]
 - !private ["7RxSwift18ReactiveCompatibleP", "frame"]
 - ["7RxSwift18ReactiveCompatibleP", "indexPathForPreferredFocusedView"]
@@ -913,6 +922,7 @@ depends-member:
 - ["So16UIViewControllerC", "viewModel"]
 - !private ["21thirtyonedigital_test17UserTableViewCellC", "className"]
 - !private ["21thirtyonedigital_test17UserTableViewCellC", "setupCell"]
+- !private ["21thirtyonedigital_test18UserTableViewModelC", "didReachedEnd"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "disposeBag"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "init"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "loadUsers"]
@@ -960,6 +970,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "className"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "contentOffset"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "contentSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReachedEnd"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "disposeBag"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "indexPathForPreferredFocusedView"]
@@ -998,6 +1009,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "className"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentOffset"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didReachedEnd"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "disposeBag"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "indexPathForPreferredFocusedView"]

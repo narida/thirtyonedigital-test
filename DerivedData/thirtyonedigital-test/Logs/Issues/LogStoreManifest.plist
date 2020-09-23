@@ -90,6 +90,34 @@
 			<key>uniqueIdentifier</key>
 			<string>2D3841EC-F0CA-43E8-B459-1F9F3BA58FB8</string>
 		</dict>
+		<key>5CB60AB0-434C-4135-92F1-5206D2D2583E</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>5CB60AB0-434C-4135-92F1-5206D2D2583E.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>signature</key>
+			<string>thirtyonedigital-test-besxzintcuiiwfavljfchdfhhduj</string>
+			<key>timeStartedRecording</key>
+			<real>622548755.32392001</real>
+			<key>timeStoppedRecording</key>
+			<real>622548755.32413805</real>
+			<key>title</key>
+			<string>Build target thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>5CB60AB0-434C-4135-92F1-5206D2D2583E</string>
+		</dict>
 		<key>655A0C64-D0B3-4D96-A8D7-6D1AF3B36ED2</key>
 		<dict>
 			<key>className</key>
@@ -117,34 +145,6 @@
 			<string>Build target RxCocoa</string>
 			<key>uniqueIdentifier</key>
 			<string>655A0C64-D0B3-4D96-A8D7-6D1AF3B36ED2</string>
-		</dict>
-		<key>E2FD7AED-C5FB-4AB6-A513-6B05E7A0BD2E</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogMajorGroupSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
-			<key>fileName</key>
-			<string>E2FD7AED-C5FB-4AB6-A513-6B05E7A0BD2E.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>signature</key>
-			<string>thirtyonedigital-test-besxzintcuiiwfavljfchdfhhduj</string>
-			<key>timeStartedRecording</key>
-			<real>622548213.79391599</real>
-			<key>timeStoppedRecording</key>
-			<real>622548215.52842295</real>
-			<key>title</key>
-			<string>Build target thirtyonedigital-test</string>
-			<key>uniqueIdentifier</key>
-			<string>E2FD7AED-C5FB-4AB6-A513-6B05E7A0BD2E</string>
 		</dict>
 		<key>F6FE83D7-566C-42E4-8E6F-B9E8D41E0C2A</key>
 		<dict>

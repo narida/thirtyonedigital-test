@@ -15,7 +15,7 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "+"
 - !private "+="
-- !private "<"
+- !private "<="
 - !private "ApiClient"
 - !private "ApiError"
 - "AssignmentPrecedence"
@@ -30,58 +30,69 @@ depends-top-level:
 - "UserTableViewModel"
 - !private "print"
 depends-member:
+- !private ["9Alamofire0A8ExtendedP", "count"]
 - !private ["21thirtyonedigital_test9ApiClientC", "getUsers"]
 - !private ["21thirtyonedigital_test8ApiErrorO", "conflict"]
 - !private ["21thirtyonedigital_test8ApiErrorO", "deinit"]
 - !private ["21thirtyonedigital_test8ApiErrorO", "forbidden"]
 - !private ["21thirtyonedigital_test8ApiErrorO", "notFound"]
+- !private ["Sa", "count"]
 - !private ["7RxRelay08BehaviorB0C", "accept"]
 - ["7RxRelay08BehaviorB0C", "init"]
 - !private ["7RxRelay08BehaviorB0C", "value"]
+- !private ["SK", "count"]
 - !private ["s7CVarArgP", "ApiClient"]
 - ["s7CVarArgP", "BehaviorRelay"]
 - ["s7CVarArgP", "DisposeBag"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "didReachedEnd"]
 - !private ["s7CVarArgP", "disposeBag"]
 - !private ["s7CVarArgP", "getUser"]
 - !private ["s7CVarArgP", "page"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "users"]
+- !private ["Sl", "count"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "ApiClient"]
 - ["s28CustomDebugStringConvertibleP", "BehaviorRelay"]
 - ["s28CustomDebugStringConvertibleP", "DisposeBag"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "didReachedEnd"]
 - !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
 - !private ["s28CustomDebugStringConvertibleP", "getUser"]
 - !private ["s28CustomDebugStringConvertibleP", "page"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "users"]
+- !private ["s17CustomReflectableP", "count"]
 - !private ["s23CustomStringConvertibleP", "ApiClient"]
 - ["s23CustomStringConvertibleP", "BehaviorRelay"]
 - ["s23CustomStringConvertibleP", "DisposeBag"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "didReachedEnd"]
 - !private ["s23CustomStringConvertibleP", "disposeBag"]
 - !private ["s23CustomStringConvertibleP", "getUser"]
 - !private ["s23CustomStringConvertibleP", "page"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "users"]
-- !private ["Se", "page"]
-- !private ["Se", "totalPages"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["Se", "count"]
+- !private ["Se", "total"]
 - !private ["Se", "users"]
 - !private ["7RxSwift10DisposableP", "disposed"]
 - ["7RxSwift10DisposeBagC", "init"]
 - ["7RxSwift11DisposeBaseC", "init"]
-- !private ["SE", "page"]
-- !private ["SE", "totalPages"]
+- !private ["SE", "count"]
+- !private ["SE", "total"]
 - !private ["SE", "users"]
 - !private ["SQ", "ApiClient"]
 - ["SQ", "BehaviorRelay"]
 - ["SQ", "DisposeBag"]
 - ["SQ", ""]
 - !private ["SQ", "conflict"]
+- !private ["SQ", "count"]
 - !private ["SQ", "didReachedEnd"]
 - !private ["SQ", "disposeBag"]
 - !private ["SQ", "forbidden"]
@@ -93,11 +104,13 @@ depends-member:
 - !private ["s5ErrorP", "conflict"]
 - !private ["s5ErrorP", "forbidden"]
 - !private ["s5ErrorP", "notFound"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["SH", "ApiClient"]
 - ["SH", "BehaviorRelay"]
 - ["SH", "DisposeBag"]
 - ["SH", ""]
 - !private ["SH", "conflict"]
+- !private ["SH", "count"]
 - !private ["SH", "didReachedEnd"]
 - !private ["SH", "disposeBag"]
 - !private ["SH", "forbidden"]
@@ -106,6 +119,8 @@ depends-member:
 - !private ["SH", "page"]
 - !private ["SH", "print"]
 - !private ["SH", "users"]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
 - !private ["So8NSObjectC", "ApiClient"]
 - !private ["So8NSObjectC", "ApiError"]
 - ["So8NSObjectC", "BehaviorRelay"]
@@ -142,9 +157,10 @@ depends-member:
 - ["7RxSwift14ObservableTypeP", "init"]
 - !private ["7RxSwift14ObservableTypeP", "subscribe"]
 - !private ["7RxSwift14ObservableTypeP", "value"]
-- !private ["21thirtyonedigital_test10PaginationV", "page"]
-- !private ["21thirtyonedigital_test10PaginationV", "totalPages"]
+- !private ["21thirtyonedigital_test10PaginationV", "total"]
 - !private ["21thirtyonedigital_test10PaginationV", "users"]
+- !private ["Sk", "count"]
+- !private ["Sm", "count"]
 - !private ["7RxSwift18ReactiveCompatibleP", "ApiClient"]
 - ["7RxSwift18ReactiveCompatibleP", "BehaviorRelay"]
 - ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
@@ -155,6 +171,7 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "page"]
 - !private ["7RxSwift18ReactiveCompatibleP", "print"]
 - !private ["7RxSwift18ReactiveCompatibleP", "users"]
+- !private ["ST", "count"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "ApiClient"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "ApiError"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "BehaviorRelay"]
@@ -169,6 +186,10 @@ depends-member:
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "page"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "print"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "users"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ApiClient"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "BehaviorRelay"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
@@ -189,13 +210,21 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "page"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "users"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
 depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
 - !private "21thirtyonedigital_test9ApiClientC"
 - !private "21thirtyonedigital_test8ApiErrorO"
+- !private "Sa"
 - "7RxRelay08BehaviorB0C"
+- !private "SK"
 - "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
 - "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "7RxSwift10DisposableP"
 - "7RxSwift10DisposeBagC"
@@ -203,17 +232,28 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
 - "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "7RxSwift10ObservableC"
 - "7RxSwift25ObservableConvertibleTypeP"
 - "7RxSwift14ObservableTypeP"
 - !private "21thirtyonedigital_test10PaginationV"
+- !private "Sk"
+- !private "Sm"
 - "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
 - "21thirtyonedigital_test18UserTableViewModelC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
