@@ -13,15 +13,15 @@
 	<string>RxSwift</string>
 	<string>libkern</string>
 	<string>FoundationNetworking</string>
-	<string>Combine</string>
+	<string>Darwin</string>
 	<string>CoreServices</string>
 	<string>RxRelay</string>
-	<string>Darwin</string>
 	<string>UIKit</string>
+	<string>Combine</string>
 	<string>thirtyonedigital</string>
 	<string>SystemConfiguration</string>
-	<string>Swift</string>
 	<string>XCTest</string>
+	<string>Swift</string>
 	<string>Glibc</string>
 	<string>MobileCoreServices</string>
 	<string>Cocoa</string>
