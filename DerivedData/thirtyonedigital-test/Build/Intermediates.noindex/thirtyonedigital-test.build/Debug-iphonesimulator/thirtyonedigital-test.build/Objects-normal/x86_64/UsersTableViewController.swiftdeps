@@ -77,6 +77,7 @@ depends-member:
 - ["s7CVarArgP", "scrollViewWillBeginZooming"]
 - ["s7CVarArgP", "scrollViewWillEndDragging"]
 - !private ["s7CVarArgP", "setupCell"]
+- !private ["s7CVarArgP", "setupNetwork"]
 - !private ["s7CVarArgP", "setupUI"]
 - !private ["s7CVarArgP", "showLoading"]
 - ["s7CVarArgP", "tableView"]
@@ -119,6 +120,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "scrollViewWillBeginZooming"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewWillEndDragging"]
 - !private ["s28CustomDebugStringConvertibleP", "setupCell"]
+- !private ["s28CustomDebugStringConvertibleP", "setupNetwork"]
 - !private ["s28CustomDebugStringConvertibleP", "setupUI"]
 - !private ["s28CustomDebugStringConvertibleP", "showLoading"]
 - !private ["s28CustomDebugStringConvertibleP", "size"]
@@ -167,6 +169,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "scrollViewWillBeginZooming"]
 - ["s23CustomStringConvertibleP", "scrollViewWillEndDragging"]
 - !private ["s23CustomStringConvertibleP", "setupCell"]
+- !private ["s23CustomStringConvertibleP", "setupNetwork"]
 - !private ["s23CustomStringConvertibleP", "setupUI"]
 - !private ["s23CustomStringConvertibleP", "showLoading"]
 - ["s23CustomStringConvertibleP", "tableView"]
@@ -220,6 +223,7 @@ depends-member:
 - ["SQ", "scrollViewWillBeginZooming"]
 - ["SQ", "scrollViewWillEndDragging"]
 - !private ["SQ", "setupCell"]
+- !private ["SQ", "setupNetwork"]
 - !private ["SQ", "setupUI"]
 - !private ["SQ", "showLoading"]
 - !private ["SQ", "size"]
@@ -274,6 +278,7 @@ depends-member:
 - ["SH", "scrollViewWillBeginZooming"]
 - ["SH", "scrollViewWillEndDragging"]
 - !private ["SH", "setupCell"]
+- !private ["SH", "setupNetwork"]
 - !private ["SH", "setupUI"]
 - !private ["SH", "showLoading"]
 - ["SH", "tableView"]
@@ -385,6 +390,7 @@ depends-member:
 - ["So8NSObjectC", "scrollViewWillBeginZooming"]
 - ["So8NSObjectC", "scrollViewWillEndDragging"]
 - !private ["So8NSObjectC", "setupCell"]
+- !private ["So8NSObjectC", "setupNetwork"]
 - ["So8NSObjectC", "setupUI"]
 - !private ["So8NSObjectC", "showLoading"]
 - ["So8NSObjectC", "tableView"]
@@ -428,6 +434,7 @@ depends-member:
 - ["So8NSObjectP", "scrollViewWillBeginZooming"]
 - ["So8NSObjectP", "scrollViewWillEndDragging"]
 - !private ["So8NSObjectP", "setupCell"]
+- !private ["So8NSObjectP", "setupNetwork"]
 - !private ["So8NSObjectP", "setupUI"]
 - !private ["So8NSObjectP", "showLoading"]
 - ["So8NSObjectP", "tableView"]
@@ -483,6 +490,7 @@ depends-member:
 - ["7RxSwift18ReactiveCompatibleP", "scrollViewWillBeginZooming"]
 - ["7RxSwift18ReactiveCompatibleP", "scrollViewWillEndDragging"]
 - !private ["7RxSwift18ReactiveCompatibleP", "setupCell"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setupNetwork"]
 - !private ["7RxSwift18ReactiveCompatibleP", "setupUI"]
 - !private ["7RxSwift18ReactiveCompatibleP", "showLoading"]
 - ["7RxSwift18ReactiveCompatibleP", "tableView"]
@@ -974,6 +982,7 @@ depends-member:
 - ["21thirtyonedigital_test18UserTableViewModelC", "init"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "isLoading"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "loadUsers"]
+- !private ["21thirtyonedigital_test18UserTableViewModelC", "setupNetwork"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "users"]
 - ["21thirtyonedigital_test24UsersTableViewControllerC", "Bool"]
 - ["21thirtyonedigital_test24UsersTableViewControllerC", "CGFloat"]
@@ -1046,6 +1055,7 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewWillBeginZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "scrollViewWillEndDragging"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupCell"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setupNetwork"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "setupUI"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "showLoading"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
@@ -1087,6 +1097,7 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewWillBeginZooming"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "scrollViewWillEndDragging"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupCell"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupNetwork"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setupUI"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showLoading"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableView"]
@@ -1194,12 +1205,14 @@ depends-external:
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
@@ -1264,6 +1277,7 @@ depends-external:
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
@@ -1273,6 +1287,7 @@ depends-external:
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"

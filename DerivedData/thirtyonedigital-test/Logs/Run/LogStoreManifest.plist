@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>004BA5EF-A3CA-447C-9585-93EFD3A0797D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>004BA5EF-A3CA-447C-9585-93EFD3A0797D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>thirtyonedigital-test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>thirtyonedigital-test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run thirtyonedigital-test</string>
+			<key>timeStartedRecording</key>
+			<real>622604067.05981898</real>
+			<key>timeStoppedRecording</key>
+			<real>622604075.18139696</real>
+			<key>title</key>
+			<string>Run thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>004BA5EF-A3CA-447C-9585-93EFD3A0797D</string>
+		</dict>
 		<key>1876240E-BEA8-459A-B8A5-37C14758E488</key>
 		<dict>
 			<key>className</key>
@@ -73,6 +107,74 @@
 			<string>Run thirtyonedigital-test</string>
 			<key>uniqueIdentifier</key>
 			<string>237D67BD-6EA6-4387-8BE0-6BCC98321524</string>
+		</dict>
+		<key>77EC4B1E-ACF4-4C73-9C99-9A543E510225</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>77EC4B1E-ACF4-4C73-9C99-9A543E510225.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>thirtyonedigital-test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>thirtyonedigital-test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run thirtyonedigital-test</string>
+			<key>timeStartedRecording</key>
+			<real>622604077.236202</real>
+			<key>timeStoppedRecording</key>
+			<real>622604245.94790697</real>
+			<key>title</key>
+			<string>Run thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>77EC4B1E-ACF4-4C73-9C99-9A543E510225</string>
+		</dict>
+		<key>FBD38695-DBFD-42B1-84D9-165AC7D97E5F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>FBD38695-DBFD-42B1-84D9-165AC7D97E5F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>thirtyonedigital-test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>thirtyonedigital-test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run thirtyonedigital-test</string>
+			<key>timeStartedRecording</key>
+			<real>622600311.72463596</real>
+			<key>timeStoppedRecording</key>
+			<real>622602519.16695201</real>
+			<key>title</key>
+			<string>Run thirtyonedigital-test</string>
+			<key>uniqueIdentifier</key>
+			<string>FBD38695-DBFD-42B1-84D9-165AC7D97E5F</string>
 		</dict>
 	</dict>
 </dict>

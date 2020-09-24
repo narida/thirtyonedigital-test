@@ -12,7 +12,9 @@ provides-dynamic-lookup:
 - "getUser"
 - "isLoading"
 - "loadUsers"
+- "network"
 - "page"
+- "setupNetwork"
 - "users"
 depends-top-level:
 - !private "+"
@@ -29,7 +31,8 @@ depends-top-level:
 - "FloatLiteralType"
 - "IntegerLiteralType"
 - "NSObject"
-- "StringLiteralType"
+- "NetworkManager"
+- !private "StringLiteralType"
 - "User"
 - "UserTableViewModel"
 - !private "print"
@@ -48,55 +51,79 @@ depends-member:
 - !private ["s7CVarArgP", "ApiClient"]
 - ["s7CVarArgP", "BehaviorRelay"]
 - ["s7CVarArgP", "DisposeBag"]
+- ["s7CVarArgP", "NetworkManager"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "count"]
 - !private ["s7CVarArgP", "didReachedEnd"]
 - !private ["s7CVarArgP", "disposeBag"]
 - !private ["s7CVarArgP", "getUser"]
 - !private ["s7CVarArgP", "isLoading"]
+- !private ["s7CVarArgP", "loadUsers"]
+- !private ["s7CVarArgP", "network"]
 - !private ["s7CVarArgP", "page"]
 - !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reachability"]
+- ["s7CVarArgP", "sharedInstance"]
 - !private ["s7CVarArgP", "users"]
 - !private ["Sl", "count"]
 - !private ["10Foundation15ContiguousBytesP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "ApiClient"]
 - ["s28CustomDebugStringConvertibleP", "BehaviorRelay"]
 - ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- ["s28CustomDebugStringConvertibleP", "NetworkManager"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "didReachedEnd"]
 - !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
 - !private ["s28CustomDebugStringConvertibleP", "getUser"]
 - !private ["s28CustomDebugStringConvertibleP", "isLoading"]
+- !private ["s28CustomDebugStringConvertibleP", "loadUsers"]
+- !private ["s28CustomDebugStringConvertibleP", "network"]
 - !private ["s28CustomDebugStringConvertibleP", "page"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "reachability"]
+- ["s28CustomDebugStringConvertibleP", "sharedInstance"]
 - !private ["s28CustomDebugStringConvertibleP", "users"]
+- !private ["s28CustomDebugStringConvertibleP", "whenReachable"]
+- !private ["s28CustomDebugStringConvertibleP", "whenUnreachable"]
 - !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "whenReachable"]
+- !private ["s17CustomReflectableP", "whenUnreachable"]
 - !private ["s23CustomStringConvertibleP", "ApiClient"]
 - ["s23CustomStringConvertibleP", "BehaviorRelay"]
 - ["s23CustomStringConvertibleP", "DisposeBag"]
+- ["s23CustomStringConvertibleP", "NetworkManager"]
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "count"]
 - !private ["s23CustomStringConvertibleP", "didReachedEnd"]
 - !private ["s23CustomStringConvertibleP", "disposeBag"]
 - !private ["s23CustomStringConvertibleP", "getUser"]
 - !private ["s23CustomStringConvertibleP", "isLoading"]
+- !private ["s23CustomStringConvertibleP", "loadUsers"]
+- !private ["s23CustomStringConvertibleP", "network"]
 - !private ["s23CustomStringConvertibleP", "page"]
 - !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reachability"]
+- ["s23CustomStringConvertibleP", "sharedInstance"]
 - !private ["s23CustomStringConvertibleP", "users"]
 - !private ["10Foundation12DataProtocolP", "count"]
 - !private ["Se", "count"]
 - !private ["Se", "total"]
 - !private ["Se", "users"]
+- !private ["Se", "whenReachable"]
+- !private ["Se", "whenUnreachable"]
 - !private ["7RxSwift10DisposableP", "disposed"]
 - ["7RxSwift10DisposeBagC", "init"]
 - ["7RxSwift11DisposeBaseC", "init"]
 - !private ["SE", "count"]
 - !private ["SE", "total"]
 - !private ["SE", "users"]
+- !private ["SE", "whenReachable"]
+- !private ["SE", "whenUnreachable"]
 - !private ["SQ", "ApiClient"]
 - ["SQ", "BehaviorRelay"]
 - ["SQ", "DisposeBag"]
+- ["SQ", "NetworkManager"]
 - ["SQ", ""]
 - !private ["SQ", "conflict"]
 - !private ["SQ", "count"]
@@ -105,17 +132,26 @@ depends-member:
 - !private ["SQ", "forbidden"]
 - !private ["SQ", "getUser"]
 - !private ["SQ", "isLoading"]
+- !private ["SQ", "loadUsers"]
+- !private ["SQ", "network"]
 - !private ["SQ", "notFound"]
 - !private ["SQ", "page"]
 - !private ["SQ", "print"]
+- !private ["SQ", "reachability"]
+- ["SQ", "sharedInstance"]
 - !private ["SQ", "users"]
+- !private ["SQ", "whenReachable"]
+- !private ["SQ", "whenUnreachable"]
 - !private ["s5ErrorP", "conflict"]
 - !private ["s5ErrorP", "forbidden"]
 - !private ["s5ErrorP", "notFound"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s23ExpressibleByNilLiteralP", "whenReachable"]
+- !private ["s23ExpressibleByNilLiteralP", "whenUnreachable"]
 - !private ["SH", "ApiClient"]
 - ["SH", "BehaviorRelay"]
 - ["SH", "DisposeBag"]
+- ["SH", "NetworkManager"]
 - ["SH", ""]
 - !private ["SH", "conflict"]
 - !private ["SH", "count"]
@@ -124,10 +160,16 @@ depends-member:
 - !private ["SH", "forbidden"]
 - !private ["SH", "getUser"]
 - !private ["SH", "isLoading"]
+- !private ["SH", "loadUsers"]
+- !private ["SH", "network"]
 - !private ["SH", "notFound"]
 - !private ["SH", "page"]
 - !private ["SH", "print"]
+- !private ["SH", "reachability"]
+- ["SH", "sharedInstance"]
 - !private ["SH", "users"]
+- !private ["SH", "whenReachable"]
+- !private ["SH", "whenUnreachable"]
 - !private ["SM", "count"]
 - !private ["10Foundation19MutableDataProtocolP", "count"]
 - !private ["So8NSObjectC", "ApiClient"]
@@ -136,6 +178,7 @@ depends-member:
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "DisposeBag"]
 - ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "NetworkManager"]
 - ["So8NSObjectC", "User"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "didReachedEnd"]
@@ -145,20 +188,31 @@ depends-member:
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "isLoading"]
 - ["So8NSObjectC", "loadUsers"]
+- ["So8NSObjectC", "network"]
 - ["So8NSObjectC", "page"]
 - !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "reachability"]
+- ["So8NSObjectC", "setupNetwork"]
+- ["So8NSObjectC", "sharedInstance"]
 - ["So8NSObjectC", "users"]
 - !private ["So8NSObjectP", "ApiClient"]
 - ["So8NSObjectP", "BehaviorRelay"]
 - ["So8NSObjectP", "DisposeBag"]
+- ["So8NSObjectP", "NetworkManager"]
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "didReachedEnd"]
 - !private ["So8NSObjectP", "disposeBag"]
 - !private ["So8NSObjectP", "getUser"]
 - !private ["So8NSObjectP", "isLoading"]
+- !private ["So8NSObjectP", "loadUsers"]
+- !private ["So8NSObjectP", "network"]
 - !private ["So8NSObjectP", "page"]
 - !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "reachability"]
+- ["So8NSObjectP", "sharedInstance"]
 - !private ["So8NSObjectP", "users"]
+- !private ["21thirtyonedigital_test14NetworkManagerC", "reachability"]
+- ["21thirtyonedigital_test14NetworkManagerC", "sharedInstance"]
 - !private ["7RxSwift10ObservableC", "asObservable"]
 - !private ["7RxSwift10ObservableC", "subscribe"]
 - !private ["7RxSwift25ObservableConvertibleTypeP", "accept"]
@@ -171,20 +225,29 @@ depends-member:
 - ["7RxSwift14ObservableTypeP", "init"]
 - !private ["7RxSwift14ObservableTypeP", "subscribe"]
 - !private ["7RxSwift14ObservableTypeP", "value"]
+- !private ["Sq", "whenReachable"]
+- !private ["Sq", "whenUnreachable"]
 - !private ["21thirtyonedigital_test10PaginationV", "total"]
 - !private ["21thirtyonedigital_test10PaginationV", "users"]
 - !private ["Sk", "count"]
 - !private ["Sm", "count"]
+- !private ["12ReachabilityAAC", "whenReachable"]
+- !private ["12ReachabilityAAC", "whenUnreachable"]
 - !private ["7RxSwift18ReactiveCompatibleP", "ApiClient"]
 - ["7RxSwift18ReactiveCompatibleP", "BehaviorRelay"]
 - ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- ["7RxSwift18ReactiveCompatibleP", "NetworkManager"]
 - ["7RxSwift18ReactiveCompatibleP", ""]
 - !private ["7RxSwift18ReactiveCompatibleP", "didReachedEnd"]
 - !private ["7RxSwift18ReactiveCompatibleP", "disposeBag"]
 - !private ["7RxSwift18ReactiveCompatibleP", "getUser"]
 - !private ["7RxSwift18ReactiveCompatibleP", "isLoading"]
+- !private ["7RxSwift18ReactiveCompatibleP", "loadUsers"]
+- !private ["7RxSwift18ReactiveCompatibleP", "network"]
 - !private ["7RxSwift18ReactiveCompatibleP", "page"]
 - !private ["7RxSwift18ReactiveCompatibleP", "print"]
+- !private ["7RxSwift18ReactiveCompatibleP", "reachability"]
+- ["7RxSwift18ReactiveCompatibleP", "sharedInstance"]
 - !private ["7RxSwift18ReactiveCompatibleP", "users"]
 - !private ["ST", "count"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "ApiClient"]
@@ -193,6 +256,7 @@ depends-member:
 - ["21thirtyonedigital_test18UserTableViewModelC", "Bool"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "DisposeBag"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "Error"]
+- ["21thirtyonedigital_test18UserTableViewModelC", "NetworkManager"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "User"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "deinit"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "didReachedEnd"]
@@ -202,8 +266,10 @@ depends-member:
 - ["21thirtyonedigital_test18UserTableViewModelC", "init"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "isLoading"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "loadUsers"]
+- ["21thirtyonedigital_test18UserTableViewModelC", "network"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "page"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "print"]
+- ["21thirtyonedigital_test18UserTableViewModelC", "setupNetwork"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "users"]
 - !private ["s14_ArrayProtocolP", "count"]
 - !private ["s24_DestructorSafeContainerP", "count"]
@@ -212,26 +278,38 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ApiClient"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "BehaviorRelay"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NetworkManager"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReachedEnd"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "disposeBag"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getUser"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isLoading"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "loadUsers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "network"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "page"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reachability"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "users"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ApiClient"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "BehaviorRelay"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DisposeBag"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NetworkManager"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didReachedEnd"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "disposeBag"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getUser"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isLoading"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadUsers"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "network"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "page"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "reachability"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "users"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "whenReachable"]
+- !private ["s21_ObjectiveCBridgeableP", "whenUnreachable"]
 depends-nominal:
 - !private "9Alamofire0A8ExtendedP"
 - !private "21thirtyonedigital_test9ApiClientC"
@@ -254,17 +332,21 @@ depends-nominal:
 - "SQ"
 - !private "s5ErrorP"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - "SH"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- "21thirtyonedigital_test14NetworkManagerC"
 - !private "7RxSwift10ObservableC"
 - "7RxSwift25ObservableConvertibleTypeP"
 - "7RxSwift14ObservableTypeP"
+- !private "Sq"
 - !private "21thirtyonedigital_test10PaginationV"
 - !private "Sk"
 - !private "Sm"
+- !private "12ReachabilityAAC"
 - "7RxSwift18ReactiveCompatibleP"
 - !private "ST"
 - "21thirtyonedigital_test18UserTableViewModelC"
@@ -295,12 +377,14 @@ depends-external:
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/Reachability.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/ReachabilitySwift-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
@@ -365,6 +449,7 @@ depends-external:
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Headers/Reachability-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
@@ -374,6 +459,7 @@ depends-external:
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/ReachabilitySwift/Reachability.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
@@ -389,4 +475,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bfaba616e54eff38066a150bca8487d3"
+interface-hash: "ccf6f2fcf69f189a5b40310c06fcd0f8"

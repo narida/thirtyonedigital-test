@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.m \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SDWebImage.build/module.modulemap \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/Target\ Support\ Files/SDWebImage/SDWebImage-prefix.pch \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageManager.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageOperation.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDImageCacheDefine.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageDefine.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDImageLoader.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDImageTransformer.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheKeyFilter.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageCacheSerializer.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageOptionsProcessor.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDImageCache.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDImageCacheConfig.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDMemoryCache.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDDiskCache.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloader.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderConfig.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderRequestModifier.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderResponseModifier.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageDownloaderDecryptor.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/UIImage+Metadata.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/NSData+ImageContentType.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Private/SDAssociatedObject.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Core/SDWebImageError.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Private/SDInternalMacros.h \
+  /Users/elishanarida/Desktop/thirtyonedigital-test/Pods/SDWebImage/SDWebImage/Private/SDmetamacros.h

@@ -4,6 +4,7 @@
 <array>
 	<string>Darwin</string>
 	<string>Cocoa</string>
+	<string>Reachability</string>
 	<string>CommonCrypto</string>
 	<string>ImageIO</string>
 	<string>objc</string>

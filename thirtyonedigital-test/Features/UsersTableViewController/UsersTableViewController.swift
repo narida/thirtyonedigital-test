@@ -20,6 +20,7 @@ final class UsersTableViewController: UIViewController {
         super.viewDidLoad()
         
         setupUI()
+        viewModel.setupNetwork()
     }
     
     private func setupUI() {

@@ -222,6 +222,13 @@ SWIFT_CLASS("_TtC21thirtyonedigital_test11AppDelegate")
 
 
 
+
+SWIFT_CLASS("_TtC21thirtyonedigital_test14NetworkManager")
+@interface NetworkManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)networkStatusChanged:(NSNotification * _Nonnull)notification;
+@end
+
 @class UIWindow;
 @class UIScene;
 

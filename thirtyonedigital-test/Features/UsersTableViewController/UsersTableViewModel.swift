@@ -21,6 +21,17 @@ final class UserTableViewModel: NSObject {
     let isLoading = BehaviorRelay<Bool>(value: false)
     let error = BehaviorRelay<Error?>(value: nil)
     
+    let network = NetworkManager.sharedInstance
+    
+    func setupNetwork() {
+        network.reachability.whenUnreachable = { reachability in
+            print("Unreachable")
+        }
+        network.reachability.whenReachable = { reachability in
+            self.loadUsers()
+        }
+    }
+    
     func loadUsers() {
         isLoading.accept(true)
         didReachedEnd = false

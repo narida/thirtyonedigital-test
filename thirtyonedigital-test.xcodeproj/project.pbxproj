@@ -10,11 +10,11 @@
 		5DE23459EA03323D63F76D85 /* Pods_thirtyonedigital_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322B93D881BA8CC8C5BAF662 /* Pods_thirtyonedigital_testTests.framework */; };
 		6372D012251B7E4000D7F78C /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372D011251B7E4000D7F78C /* UIImageView.swift */; };
 		6372D018251B885900D7F78C /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6372D017251B885900D7F78C /* UIViewController.swift */; };
+		637854FF251C2B4600AC1974 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637854FE251C2B4600AC1974 /* NetworkManager.swift */; };
 		63BB07ED251A246B007144CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB07EC251A246B007144CD /* AppDelegate.swift */; };
 		63BB07EF251A246B007144CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB07EE251A246B007144CD /* SceneDelegate.swift */; };
 		63BB07F1251A246B007144CD /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB07F0251A246B007144CD /* UsersTableViewController.swift */; };
 		63BB07F4251A246B007144CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BB07F2251A246B007144CD /* Main.storyboard */; };
-		63BB07F7251A246B007144CD /* thirtyonedigital_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63BB07F5251A246B007144CD /* thirtyonedigital_test.xcdatamodeld */; };
 		63BB07F9251A246E007144CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BB07F8251A246E007144CD /* Assets.xcassets */; };
 		63BB07FC251A246E007144CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BB07FA251A246E007144CD /* LaunchScreen.storyboard */; };
 		63BB0807251A246E007144CD /* thirtyonedigital_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BB0806251A246E007144CD /* thirtyonedigital_testTests.swift */; };
@@ -46,12 +46,12 @@
 		4D458FC113C3AD2D76B8B1D8 /* Pods-thirtyonedigital-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-thirtyonedigital-testTests.release.xcconfig"; path = "Target Support Files/Pods-thirtyonedigital-testTests/Pods-thirtyonedigital-testTests.release.xcconfig"; sourceTree = "<group>"; };
 		6372D011251B7E4000D7F78C /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		6372D017251B885900D7F78C /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		637854FE251C2B4600AC1974 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		63BB07E9251A246B007144CD /* thirtyonedigital-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "thirtyonedigital-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BB07EC251A246B007144CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63BB07EE251A246B007144CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		63BB07F0251A246B007144CD /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
 		63BB07F3251A246B007144CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63BB07F6251A246B007144CD /* thirtyonedigital_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = thirtyonedigital_test.xcdatamodel; sourceTree = "<group>"; };
 		63BB07F8251A246E007144CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63BB07FB251A246E007144CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63BB07FD251A246E007144CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,6 +110,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		637854F3251C21C700AC1974 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				637854FE251C2B4600AC1974 /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		63BB07E0251A246B007144CD = {
 			isa = PBXGroup;
 			children = (
@@ -139,8 +147,8 @@
 				63BB0811251A248A007144CD /* Features */,
 				63BB0829251A7B43007144CD /* Extensions */,
 				6372D00C251B458100D7F78C /* Views */,
+				637854F3251C21C700AC1974 /* Manager */,
 				63BB0813251A2491007144CD /* Resources */,
-				63BB07F5251A246B007144CD /* thirtyonedigital_test.xcdatamodeld */,
 			);
 			path = "thirtyonedigital-test";
 			sourceTree = "<group>";
@@ -398,12 +406,12 @@
 				6372D012251B7E4000D7F78C /* UIImageView.swift in Sources */,
 				63BB0827251A6D88007144CD /* UserTableViewCell.swift in Sources */,
 				63BB0821251A3519007144CD /* ApiClient.swift in Sources */,
-				63BB07F7251A246B007144CD /* thirtyonedigital_test.xcdatamodeld in Sources */,
 				63BB0819251A2550007144CD /* User.swift in Sources */,
 				63BB07ED251A246B007144CD /* AppDelegate.swift in Sources */,
 				63BB07EF251A246B007144CD /* SceneDelegate.swift in Sources */,
 				63BB0823251A6B44007144CD /* Pagination.swift in Sources */,
 				63BB082B251A7B4E007144CD /* NSObject.swift in Sources */,
+				637854FF251C2B4600AC1974 /* NetworkManager.swift in Sources */,
 				63BB0817251A2548007144CD /* ApiRouter.swift in Sources */,
 				63BB081D251A317C007144CD /* Constants.swift in Sources */,
 			);
@@ -676,19 +684,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		63BB07F5251A246B007144CD /* thirtyonedigital_test.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				63BB07F6251A246B007144CD /* thirtyonedigital_test.xcdatamodel */,
-			);
-			currentVersion = 63BB07F6251A246B007144CD /* thirtyonedigital_test.xcdatamodel */;
-			path = thirtyonedigital_test.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 63BB07E1251A246B007144CD /* Project object */;
 }
