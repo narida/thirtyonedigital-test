@@ -28,6 +28,7 @@ final class UserTableViewModel: NSObject {
             print("Unreachable")
         }
         network.reachability.whenReachable = { reachability in
+            self.users.accept([])
             self.loadUsers()
         }
     }

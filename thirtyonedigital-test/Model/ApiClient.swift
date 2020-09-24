@@ -13,7 +13,7 @@ import RxSwift
 class ApiClient {
         
     static func getUsers(page: Int) -> Observable<Pagination> {
-        return request(ApiRouter.getUsers(page: page))
+        return request(ApiRouter.getPage(page))
     }
     
     private static func request<T: Codable> (_ urlConvertible: URLRequestConvertible) -> Observable<T> {
@@ -39,7 +39,6 @@ class ApiClient {
                 }
             }
             
-            //Finally, we return a disposable to stop the request
             return Disposables.create {
                 request.cancel()
             }

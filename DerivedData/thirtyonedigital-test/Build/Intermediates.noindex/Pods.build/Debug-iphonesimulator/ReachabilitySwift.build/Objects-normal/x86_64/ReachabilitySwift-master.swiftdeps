@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
-options: "700706faed71c945120a34fec02e0067"
-build_time: [1600911162, 972207000]
-inputs:
-  "/Users/elishanarida/Desktop/thirtyonedigital-test/Pods/ReachabilitySwift/Sources/Reachability.swift": [1600908246, 785684418]

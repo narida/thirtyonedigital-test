@@ -16,7 +16,7 @@ enum ApiError: Error {
 
 enum ApiRouter: URLRequestConvertible {
     
-    case getUsers(page: Int)
+    case getPage(_: Int)
     
     //MARK: - URLRequestConvertible
     func asURLRequest() throws -> URLRequest {
@@ -43,7 +43,7 @@ enum ApiRouter: URLRequestConvertible {
     
     private var method: HTTPMethod {
         switch self {
-        case .getUsers:
+        case .getPage:
             return .get
         }
     }
@@ -51,7 +51,7 @@ enum ApiRouter: URLRequestConvertible {
     //MARK: - Path
     private var path: String {
         switch self {
-        case .getUsers:
+        case .getPage:
             return "users"
         }
     }
@@ -59,7 +59,7 @@ enum ApiRouter: URLRequestConvertible {
     //MARK: - Parameters
     private var parameters: Parameters? {
         switch self {
-        case .getUsers(let page):
+        case .getPage(let page):
             return [Constants.Parameters.page : page]
         }
     }
