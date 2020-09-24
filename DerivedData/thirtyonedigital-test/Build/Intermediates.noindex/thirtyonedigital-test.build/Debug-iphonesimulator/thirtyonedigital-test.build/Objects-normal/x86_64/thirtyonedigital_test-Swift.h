@@ -237,8 +237,11 @@ SWIFT_CLASS("_TtC21thirtyonedigital_test13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+
+
+
 @class UILabel;
-@class UIImageView;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC21thirtyonedigital_test17UserTableViewCell")
@@ -264,6 +267,8 @@ SWIFT_CLASS("_TtC21thirtyonedigital_test24UsersTableViewController")
 @interface UsersTableViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

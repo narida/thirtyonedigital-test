@@ -20,27 +20,34 @@ final class UsersTableViewController: UIViewController {
         super.viewDidLoad()
         
         setupUI()
-        setupTableView()
     }
     
     private func setupUI() {
-        
-    }
-    
-    private func setupTableView() {
-        
-        let nib = UINib(nibName: "UserTableViewCell", bundle: nil)
+        let nib = UINib(nibName: UserTableViewCell.className, bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: UserTableViewCell.className)
-        
         tableView.rx.setDelegate(self).disposed(by: viewModel.disposeBag)
         
-        viewModel.users
-            .bind(to: tableView.rx.items(cellIdentifier: UserTableViewCell.className, cellType: UserTableViewCell.self)) { (row, element, cell) in
-                cell.setupCell(user: element)
-            }
-            .disposed(by: viewModel.disposeBag)
-        
+        viewModel.isLoading
+             .asObservable()
+             .distinctUntilChanged()
+             .subscribe(
+                 onNext: { [weak self] isLoading in
+                    _ = isLoading ? self?.showLoading() : self?.dismissLoading()
+                 }
+             )
+             .disposed(by: viewModel.disposeBag)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
         viewModel.loadUsers()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        viewModel.users
+        .bind(to: tableView.rx.items(cellIdentifier: UserTableViewCell.className, cellType: UserTableViewCell.self)) { (row, element, cell) in
+            cell.setupCell(user: element)
+        }
+        .disposed(by: viewModel.disposeBag)
     }
 }
 

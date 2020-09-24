@@ -19,5 +19,8 @@ class UserTableViewCell: UITableViewCell {
         firstNameLabel.text = user.firstName
         lastNameLabel.text = user.lastName
         emailLabel.text = user.email
+        avatarImageView.sd_setImageWithFade(url: URL(string: user.avatar), placeholderImage: UIImage(named: "placeholder")) { _ in
+            self.avatarImageView.contentMode = .scaleAspectFill
+        }
     }
 }

@@ -13,151 +13,304 @@ provides-dynamic-lookup:
 - "setupCell"
 depends-top-level:
 - "AssignmentPrecedence"
+- !private "StringLiteralType"
+- !private "UIImage"
 - "UIImageView"
 - "UILabel"
 - "UITableViewCell"
+- !private "URL"
 - "User"
 - "UserTableViewCell"
 depends-member:
+- !private ["So15CALayerDelegateP", "UIImage"]
+- !private ["So15CALayerDelegateP", "URL"]
 - ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "avatarImageView"]
+- !private ["So15CALayerDelegateP", "contentMode"]
 - !private ["So15CALayerDelegateP", "emailLabel"]
 - !private ["So15CALayerDelegateP", "firstNameLabel"]
 - !private ["So15CALayerDelegateP", "lastNameLabel"]
+- !private ["So15CALayerDelegateP", "sd_setImageWithFade"]
 - !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "URL"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "avatarImageView"]
+- !private ["s7CVarArgP", "contentMode"]
 - !private ["s7CVarArgP", "emailLabel"]
 - !private ["s7CVarArgP", "firstNameLabel"]
+- !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "lastNameLabel"]
+- !private ["s7CVarArgP", "sd_setImageWithFade"]
 - !private ["s7CVarArgP", "text"]
+- !private ["So17UIViewContentModeV", "scaleAspectFill"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "avatarImageView"]
+- !private ["s28CustomDebugStringConvertibleP", "contentMode"]
 - !private ["s28CustomDebugStringConvertibleP", "emailLabel"]
 - !private ["s28CustomDebugStringConvertibleP", "firstNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "lastNameLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "sd_setImageWithFade"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s17CustomReflectableP", "contentMode"]
+- !private ["s17CustomReflectableP", "sd_setImageWithFade"]
 - !private ["s17CustomReflectableP", "text"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "URL"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "avatarImageView"]
+- !private ["s23CustomStringConvertibleP", "contentMode"]
 - !private ["s23CustomStringConvertibleP", "emailLabel"]
 - !private ["s23CustomStringConvertibleP", "firstNameLabel"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "lastNameLabel"]
+- !private ["s23CustomStringConvertibleP", "sd_setImageWithFade"]
 - !private ["s23CustomStringConvertibleP", "text"]
+- !private ["Se", "avatar"]
+- !private ["Se", "contentMode"]
 - !private ["Se", "email"]
 - !private ["Se", "firstName"]
+- !private ["Se", "init"]
 - !private ["Se", "lastName"]
+- !private ["Se", "sd_setImageWithFade"]
 - !private ["Se", "text"]
+- !private ["SE", "avatar"]
+- !private ["SE", "contentMode"]
 - !private ["SE", "email"]
 - !private ["SE", "firstName"]
+- !private ["SE", "init"]
 - !private ["SE", "lastName"]
+- !private ["SE", "sd_setImageWithFade"]
 - !private ["SE", "text"]
+- !private ["SQ", "UIImage"]
+- !private ["SQ", "URL"]
 - ["SQ", ""]
+- !private ["SQ", "avatarImageView"]
+- !private ["SQ", "contentMode"]
 - !private ["SQ", "emailLabel"]
 - !private ["SQ", "firstNameLabel"]
+- !private ["SQ", "init"]
 - !private ["SQ", "lastNameLabel"]
+- !private ["SQ", "scaleAspectFill"]
+- !private ["SQ", "sd_setImageWithFade"]
 - !private ["SQ", "text"]
+- !private ["s23ExpressibleByNilLiteralP", "contentMode"]
+- !private ["s23ExpressibleByNilLiteralP", "sd_setImageWithFade"]
 - !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["SH", "UIImage"]
+- !private ["SH", "URL"]
 - ["SH", ""]
+- !private ["SH", "avatarImageView"]
+- !private ["SH", "contentMode"]
 - !private ["SH", "emailLabel"]
 - !private ["SH", "firstNameLabel"]
+- !private ["SH", "init"]
 - !private ["SH", "lastNameLabel"]
+- !private ["SH", "scaleAspectFill"]
+- !private ["SH", "sd_setImageWithFade"]
 - !private ["SH", "text"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "URL"]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "avatarImageView"]
+- !private ["So8NSCodingP", "contentMode"]
 - !private ["So8NSCodingP", "emailLabel"]
 - !private ["So8NSCodingP", "firstNameLabel"]
+- !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "lastNameLabel"]
+- !private ["So8NSCodingP", "sd_setImageWithFade"]
 - !private ["So8NSCodingP", "text"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSObjectC", "UIImage"]
 - ["So8NSObjectC", "UIImageView"]
 - ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "URL"]
 - ["So8NSObjectC", "User"]
 - ["So8NSObjectC", "avatarImageView"]
+- !private ["So8NSObjectC", "contentMode"]
 - ["So8NSObjectC", "emailLabel"]
 - ["So8NSObjectC", "firstNameLabel"]
 - ["So8NSObjectC", "init"]
 - ["So8NSObjectC", "lastNameLabel"]
+- !private ["So8NSObjectC", "sd_setImageWithFade"]
 - ["So8NSObjectC", "setupCell"]
 - !private ["So8NSObjectC", "text"]
+- !private ["So8NSObjectP", "UIImage"]
+- !private ["So8NSObjectP", "URL"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "avatarImageView"]
+- !private ["So8NSObjectP", "contentMode"]
 - !private ["So8NSObjectP", "emailLabel"]
 - !private ["So8NSObjectP", "firstNameLabel"]
+- !private ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "lastNameLabel"]
+- !private ["So8NSObjectP", "sd_setImageWithFade"]
 - !private ["So8NSObjectP", "text"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sq", "contentMode"]
+- !private ["Sq", "sd_setImageWithFade"]
 - !private ["Sq", "text"]
+- !private ["SY", "scaleAspectFill"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "URL"]
 - ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "avatarImageView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "contentMode"]
 - !private ["7RxSwift18ReactiveCompatibleP", "emailLabel"]
 - !private ["7RxSwift18ReactiveCompatibleP", "firstNameLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
 - !private ["7RxSwift18ReactiveCompatibleP", "lastNameLabel"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sd_setImageWithFade"]
 - !private ["7RxSwift18ReactiveCompatibleP", "text"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "contentMode"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "sd_setImageWithFade"]
+- !private ["So29UIAccessibilityIdentificationP", "UIImage"]
+- !private ["So29UIAccessibilityIdentificationP", "URL"]
 - ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "avatarImageView"]
+- !private ["So29UIAccessibilityIdentificationP", "contentMode"]
 - !private ["So29UIAccessibilityIdentificationP", "emailLabel"]
 - !private ["So29UIAccessibilityIdentificationP", "firstNameLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "lastNameLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "sd_setImageWithFade"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "UIImage"]
+- !private ["So12UIAppearanceP", "URL"]
 - ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "avatarImageView"]
+- !private ["So12UIAppearanceP", "contentMode"]
 - !private ["So12UIAppearanceP", "emailLabel"]
 - !private ["So12UIAppearanceP", "firstNameLabel"]
 - !private ["So12UIAppearanceP", "lastNameLabel"]
+- !private ["So12UIAppearanceP", "sd_setImageWithFade"]
 - !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "UIImage"]
+- !private ["So21UIAppearanceContainerP", "URL"]
 - ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "avatarImageView"]
+- !private ["So21UIAppearanceContainerP", "contentMode"]
 - !private ["So21UIAppearanceContainerP", "emailLabel"]
 - !private ["So21UIAppearanceContainerP", "firstNameLabel"]
 - !private ["So21UIAppearanceContainerP", "lastNameLabel"]
+- !private ["So21UIAppearanceContainerP", "sd_setImageWithFade"]
 - !private ["So21UIAppearanceContainerP", "text"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "UIImage"]
+- !private ["So17UICoordinateSpaceP", "URL"]
 - ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "avatarImageView"]
+- !private ["So17UICoordinateSpaceP", "contentMode"]
 - !private ["So17UICoordinateSpaceP", "emailLabel"]
 - !private ["So17UICoordinateSpaceP", "firstNameLabel"]
 - !private ["So17UICoordinateSpaceP", "lastNameLabel"]
+- !private ["So17UICoordinateSpaceP", "sd_setImageWithFade"]
 - !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "UIImage"]
+- !private ["So13UIDynamicItemP", "URL"]
 - ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "avatarImageView"]
+- !private ["So13UIDynamicItemP", "contentMode"]
 - !private ["So13UIDynamicItemP", "emailLabel"]
 - !private ["So13UIDynamicItemP", "firstNameLabel"]
 - !private ["So13UIDynamicItemP", "lastNameLabel"]
+- !private ["So13UIDynamicItemP", "sd_setImageWithFade"]
 - !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "UIImage"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
 - ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "avatarImageView"]
+- !private ["So18UIFocusEnvironmentP", "contentMode"]
 - !private ["So18UIFocusEnvironmentP", "emailLabel"]
 - !private ["So18UIFocusEnvironmentP", "firstNameLabel"]
 - !private ["So18UIFocusEnvironmentP", "lastNameLabel"]
+- !private ["So18UIFocusEnvironmentP", "sd_setImageWithFade"]
 - !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So11UIFocusItemP", "UIImage"]
+- !private ["So11UIFocusItemP", "URL"]
 - ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "avatarImageView"]
+- !private ["So11UIFocusItemP", "contentMode"]
 - !private ["So11UIFocusItemP", "emailLabel"]
 - !private ["So11UIFocusItemP", "firstNameLabel"]
 - !private ["So11UIFocusItemP", "lastNameLabel"]
+- !private ["So11UIFocusItemP", "sd_setImageWithFade"]
 - !private ["So11UIFocusItemP", "text"]
+- !private ["So20UIFocusItemContainerP", "UIImage"]
+- !private ["So20UIFocusItemContainerP", "URL"]
 - ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "avatarImageView"]
+- !private ["So20UIFocusItemContainerP", "contentMode"]
 - !private ["So20UIFocusItemContainerP", "emailLabel"]
 - !private ["So20UIFocusItemContainerP", "firstNameLabel"]
 - !private ["So20UIFocusItemContainerP", "lastNameLabel"]
+- !private ["So20UIFocusItemContainerP", "sd_setImageWithFade"]
 - !private ["So20UIFocusItemContainerP", "text"]
+- !private ["So27UIGestureRecognizerDelegateP", "UIImage"]
+- !private ["So27UIGestureRecognizerDelegateP", "URL"]
 - ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "avatarImageView"]
 - !private ["So27UIGestureRecognizerDelegateP", "emailLabel"]
 - !private ["So27UIGestureRecognizerDelegateP", "firstNameLabel"]
 - !private ["So27UIGestureRecognizerDelegateP", "lastNameLabel"]
+- !private ["So7UIImageC", "init"]
+- !private ["So11UIImageViewC", "contentMode"]
+- !private ["So11UIImageViewC", "sd_setImageWithFade"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
 - !private ["So7UILabelC", "text"]
+- !private ["So24UILargeContentViewerItemP", "UIImage"]
+- !private ["So24UILargeContentViewerItemP", "URL"]
 - ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "avatarImageView"]
+- !private ["So24UILargeContentViewerItemP", "contentMode"]
 - !private ["So24UILargeContentViewerItemP", "emailLabel"]
 - !private ["So24UILargeContentViewerItemP", "firstNameLabel"]
 - !private ["So24UILargeContentViewerItemP", "lastNameLabel"]
+- !private ["So24UILargeContentViewerItemP", "sd_setImageWithFade"]
 - !private ["So24UILargeContentViewerItemP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
 - ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "avatarImageView"]
+- !private ["So30UIPasteConfigurationSupportingP", "contentMode"]
 - !private ["So30UIPasteConfigurationSupportingP", "emailLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "firstNameLabel"]
 - !private ["So30UIPasteConfigurationSupportingP", "lastNameLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "sd_setImageWithFade"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So11UIResponderC", "UIImage"]
 - ["So11UIResponderC", "UIImageView"]
 - ["So11UIResponderC", "UILabel"]
+- !private ["So11UIResponderC", "URL"]
 - ["So11UIResponderC", "User"]
 - ["So11UIResponderC", "avatarImageView"]
+- !private ["So11UIResponderC", "contentMode"]
 - ["So11UIResponderC", "emailLabel"]
 - ["So11UIResponderC", "firstNameLabel"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "lastNameLabel"]
+- !private ["So11UIResponderC", "sd_setImageWithFade"]
 - ["So11UIResponderC", "setupCell"]
 - !private ["So11UIResponderC", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "UIImage"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
 - ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "avatarImageView"]
+- !private ["So30UIResponderStandardEditActionsP", "contentMode"]
 - !private ["So30UIResponderStandardEditActionsP", "emailLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "firstNameLabel"]
 - !private ["So30UIResponderStandardEditActionsP", "lastNameLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "sd_setImageWithFade"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So15UITableViewCellC", "UIImage"]
 - ["So15UITableViewCellC", "UIImageView"]
 - ["So15UITableViewCellC", "UILabel"]
+- !private ["So15UITableViewCellC", "URL"]
 - ["So15UITableViewCellC", "User"]
 - ["So15UITableViewCellC", ""]
 - ["So15UITableViewCellC", "avatarImageView"]
@@ -166,31 +319,50 @@ depends-member:
 - ["So15UITableViewCellC", "init"]
 - ["So15UITableViewCellC", "lastNameLabel"]
 - ["So15UITableViewCellC", "setupCell"]
+- !private ["So18UITraitEnvironmentP", "UIImage"]
+- !private ["So18UITraitEnvironmentP", "URL"]
 - ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "avatarImageView"]
+- !private ["So18UITraitEnvironmentP", "contentMode"]
 - !private ["So18UITraitEnvironmentP", "emailLabel"]
 - !private ["So18UITraitEnvironmentP", "firstNameLabel"]
 - !private ["So18UITraitEnvironmentP", "lastNameLabel"]
+- !private ["So18UITraitEnvironmentP", "sd_setImageWithFade"]
 - !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So23UIUserActivityRestoringP", "UIImage"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
 - ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "avatarImageView"]
+- !private ["So23UIUserActivityRestoringP", "contentMode"]
 - !private ["So23UIUserActivityRestoringP", "emailLabel"]
 - !private ["So23UIUserActivityRestoringP", "firstNameLabel"]
 - !private ["So23UIUserActivityRestoringP", "lastNameLabel"]
+- !private ["So23UIUserActivityRestoringP", "sd_setImageWithFade"]
 - !private ["So23UIUserActivityRestoringP", "text"]
+- !private ["So6UIViewC", "UIImage"]
 - ["So6UIViewC", "UIImageView"]
 - ["So6UIViewC", "UILabel"]
+- !private ["So6UIViewC", "URL"]
 - ["So6UIViewC", "User"]
 - ["So6UIViewC", "avatarImageView"]
+- !private ["So6UIViewC", "contentMode"]
 - ["So6UIViewC", "emailLabel"]
 - ["So6UIViewC", "firstNameLabel"]
 - ["So6UIViewC", "init"]
 - ["So6UIViewC", "lastNameLabel"]
+- !private ["So6UIViewC", "sd_setImageWithFade"]
 - ["So6UIViewC", "setupCell"]
 - !private ["So6UIViewC", "text"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["21thirtyonedigital_test4UserV", "avatar"]
 - !private ["21thirtyonedigital_test4UserV", "email"]
 - !private ["21thirtyonedigital_test4UserV", "firstName"]
 - !private ["21thirtyonedigital_test4UserV", "lastName"]
+- !private ["21thirtyonedigital_test17UserTableViewCellC", "UIImage"]
 - ["21thirtyonedigital_test17UserTableViewCellC", "UIImageView"]
 - ["21thirtyonedigital_test17UserTableViewCellC", "UILabel"]
+- !private ["21thirtyonedigital_test17UserTableViewCellC", "URL"]
 - ["21thirtyonedigital_test17UserTableViewCellC", "User"]
 - ["21thirtyonedigital_test17UserTableViewCellC", "avatarImageView"]
 - ["21thirtyonedigital_test17UserTableViewCellC", "deinit"]
@@ -199,25 +371,49 @@ depends-member:
 - ["21thirtyonedigital_test17UserTableViewCellC", "init"]
 - ["21thirtyonedigital_test17UserTableViewCellC", "lastNameLabel"]
 - ["21thirtyonedigital_test17UserTableViewCellC", "setupCell"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "avatarImageView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contentMode"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "emailLabel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "firstNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lastNameLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sd_setImageWithFade"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIImage"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "URL"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "avatarImageView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "contentMode"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "emailLabel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firstNameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lastNameLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sd_setImageWithFade"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
+- !private ["s21_ObjectiveCBridgeableP", "contentMode"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "sd_setImageWithFade"]
 - !private ["s21_ObjectiveCBridgeableP", "text"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "UIImage"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "URL"]
 - ["s38__DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "avatarImageView"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "contentMode"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "emailLabel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "firstNameLabel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "lastNameLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "sd_setImageWithFade"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
 - "So15CALayerDelegateP"
 - "s7CVarArgP"
+- !private "So17UIViewContentModeV"
 - "s28CustomDebugStringConvertibleP"
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
@@ -227,10 +423,16 @@ depends-nominal:
 - !private "s23ExpressibleByNilLiteralP"
 - "SH"
 - "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
+- !private "So14NSSecureCodingP"
 - !private "Sq"
+- !private "SY"
 - "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
 - "So29UIAccessibilityIdentificationP"
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
@@ -241,6 +443,9 @@ depends-nominal:
 - "So11UIFocusItemP"
 - "So20UIFocusItemContainerP"
 - "So27UIGestureRecognizerDelegateP"
+- !private "So7UIImageC"
+- !private "So11UIImageViewC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
 - !private "So7UILabelC"
 - "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
@@ -250,8 +455,13 @@ depends-nominal:
 - "So18UITraitEnvironmentP"
 - "So23UIUserActivityRestoringP"
 - "So6UIViewC"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
 - !private "21thirtyonedigital_test4UserV"
 - "21thirtyonedigital_test17UserTableViewCellC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation37_KeyValueCodingAndObservingPublishingP"
 - !private "s21_ObjectiveCBridgeableP"
@@ -276,21 +486,82 @@ depends-external:
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"

@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "c111c9f3e2075ff5b93fae20271c3628"
-build_time: [1600853687, 622974000]
+build_time: [1600907147, 347057000]
 inputs:
   "/Users/elishanarida/Desktop/thirtyonedigital-test/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1600782575, 962607627]
   "/Users/elishanarida/Desktop/thirtyonedigital-test/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1600782575, 961821347]

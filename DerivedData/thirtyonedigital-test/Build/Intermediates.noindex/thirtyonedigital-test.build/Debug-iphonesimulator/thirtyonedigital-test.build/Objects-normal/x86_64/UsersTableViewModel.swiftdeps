@@ -8,7 +8,9 @@ provides-member:
 provides-dynamic-lookup:
 - "didReachedEnd"
 - "disposeBag"
+- "error"
 - "getUser"
+- "isLoading"
 - "loadUsers"
 - "page"
 - "users"
@@ -20,8 +22,10 @@ depends-top-level:
 - !private "ApiError"
 - "AssignmentPrecedence"
 - "BehaviorRelay"
+- "Bool"
 - "BooleanLiteralType"
 - "DisposeBag"
+- "Error"
 - "FloatLiteralType"
 - "IntegerLiteralType"
 - "NSObject"
@@ -49,6 +53,7 @@ depends-member:
 - !private ["s7CVarArgP", "didReachedEnd"]
 - !private ["s7CVarArgP", "disposeBag"]
 - !private ["s7CVarArgP", "getUser"]
+- !private ["s7CVarArgP", "isLoading"]
 - !private ["s7CVarArgP", "page"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "users"]
@@ -62,6 +67,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "didReachedEnd"]
 - !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
 - !private ["s28CustomDebugStringConvertibleP", "getUser"]
+- !private ["s28CustomDebugStringConvertibleP", "isLoading"]
 - !private ["s28CustomDebugStringConvertibleP", "page"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "users"]
@@ -74,6 +80,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "didReachedEnd"]
 - !private ["s23CustomStringConvertibleP", "disposeBag"]
 - !private ["s23CustomStringConvertibleP", "getUser"]
+- !private ["s23CustomStringConvertibleP", "isLoading"]
 - !private ["s23CustomStringConvertibleP", "page"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "users"]
@@ -97,6 +104,7 @@ depends-member:
 - !private ["SQ", "disposeBag"]
 - !private ["SQ", "forbidden"]
 - !private ["SQ", "getUser"]
+- !private ["SQ", "isLoading"]
 - !private ["SQ", "notFound"]
 - !private ["SQ", "page"]
 - !private ["SQ", "print"]
@@ -115,6 +123,7 @@ depends-member:
 - !private ["SH", "disposeBag"]
 - !private ["SH", "forbidden"]
 - !private ["SH", "getUser"]
+- !private ["SH", "isLoading"]
 - !private ["SH", "notFound"]
 - !private ["SH", "page"]
 - !private ["SH", "print"]
@@ -124,13 +133,17 @@ depends-member:
 - !private ["So8NSObjectC", "ApiClient"]
 - !private ["So8NSObjectC", "ApiError"]
 - ["So8NSObjectC", "BehaviorRelay"]
+- ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "DisposeBag"]
+- ["So8NSObjectC", "Error"]
 - ["So8NSObjectC", "User"]
 - ["So8NSObjectC", ""]
 - ["So8NSObjectC", "didReachedEnd"]
 - ["So8NSObjectC", "disposeBag"]
+- ["So8NSObjectC", "error"]
 - ["So8NSObjectC", "getUser"]
 - ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isLoading"]
 - ["So8NSObjectC", "loadUsers"]
 - ["So8NSObjectC", "page"]
 - !private ["So8NSObjectC", "print"]
@@ -142,6 +155,7 @@ depends-member:
 - !private ["So8NSObjectP", "didReachedEnd"]
 - !private ["So8NSObjectP", "disposeBag"]
 - !private ["So8NSObjectP", "getUser"]
+- !private ["So8NSObjectP", "isLoading"]
 - !private ["So8NSObjectP", "page"]
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "users"]
@@ -168,6 +182,7 @@ depends-member:
 - !private ["7RxSwift18ReactiveCompatibleP", "didReachedEnd"]
 - !private ["7RxSwift18ReactiveCompatibleP", "disposeBag"]
 - !private ["7RxSwift18ReactiveCompatibleP", "getUser"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isLoading"]
 - !private ["7RxSwift18ReactiveCompatibleP", "page"]
 - !private ["7RxSwift18ReactiveCompatibleP", "print"]
 - !private ["7RxSwift18ReactiveCompatibleP", "users"]
@@ -175,13 +190,17 @@ depends-member:
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "ApiClient"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "ApiError"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "BehaviorRelay"]
+- ["21thirtyonedigital_test18UserTableViewModelC", "Bool"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "DisposeBag"]
+- ["21thirtyonedigital_test18UserTableViewModelC", "Error"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "User"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "deinit"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "didReachedEnd"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "disposeBag"]
+- ["21thirtyonedigital_test18UserTableViewModelC", "error"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "getUser"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "init"]
+- ["21thirtyonedigital_test18UserTableViewModelC", "isLoading"]
 - ["21thirtyonedigital_test18UserTableViewModelC", "loadUsers"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "page"]
 - !private ["21thirtyonedigital_test18UserTableViewModelC", "print"]
@@ -197,6 +216,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "didReachedEnd"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "disposeBag"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "getUser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isLoading"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "page"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "users"]
@@ -207,6 +227,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didReachedEnd"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "disposeBag"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getUser"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isLoading"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "page"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "users"]
@@ -274,21 +295,82 @@ depends-external:
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
 - "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
@@ -307,4 +389,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "a6951aada5ab3df710fabb97b938c711"
+interface-hash: "bfaba616e54eff38066a150bca8487d3"

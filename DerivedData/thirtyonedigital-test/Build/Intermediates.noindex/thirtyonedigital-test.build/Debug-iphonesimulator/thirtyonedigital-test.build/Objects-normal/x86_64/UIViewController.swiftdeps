@@ -1,0 +1,602 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "activityIndicatorTag"]
+- ["So16UIViewControllerC", "showLoading"]
+- ["So16UIViewControllerC", "dismissLoading"]
+provides-dynamic-lookup:
+- "activityIndicatorTag"
+- "dismissLoading"
+- "showLoading"
+depends-top-level:
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "UIActivityIndicatorView"
+- "UIViewController"
+depends-member:
+- !private ["9Alamofire0A8ExtendedP", "filter"]
+- !private ["9Alamofire0A8ExtendedP", "first"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["SK", "filter"]
+- !private ["SK", "first"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "center"]
+- !private ["So15CALayerDelegateP", "hidesWhenStopped"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "removeFromSuperview"]
+- !private ["So15CALayerDelegateP", "startAnimating"]
+- !private ["So15CALayerDelegateP", "stopAnimating"]
+- !private ["So15CALayerDelegateP", "subviews"]
+- !private ["So15CALayerDelegateP", "tag"]
+- !private ["s7CVarArgP", "UIActivityIndicatorView"]
+- !private ["s7CVarArgP", "activityIndicatorTag"]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "center"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "hidesWhenStopped"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "removeFromSuperview"]
+- !private ["s7CVarArgP", "startAnimating"]
+- !private ["s7CVarArgP", "stopAnimating"]
+- !private ["s7CVarArgP", "subviews"]
+- !private ["s7CVarArgP", "tag"]
+- !private ["s7CVarArgP", "view"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "UIActivityIndicatorView"]
+- !private ["s28CustomDebugStringConvertibleP", "activityIndicatorTag"]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "center"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "hidesWhenStopped"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFromSuperview"]
+- !private ["s28CustomDebugStringConvertibleP", "startAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAnimating"]
+- !private ["s28CustomDebugStringConvertibleP", "subviews"]
+- !private ["s28CustomDebugStringConvertibleP", "tag"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "center"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "subviews"]
+- !private ["s23CustomStringConvertibleP", "UIActivityIndicatorView"]
+- !private ["s23CustomStringConvertibleP", "activityIndicatorTag"]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "center"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "hidesWhenStopped"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "removeFromSuperview"]
+- !private ["s23CustomStringConvertibleP", "startAnimating"]
+- !private ["s23CustomStringConvertibleP", "stopAnimating"]
+- !private ["s23CustomStringConvertibleP", "subviews"]
+- !private ["s23CustomStringConvertibleP", "tag"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "center"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["Se", "subviews"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "center"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SE", "subviews"]
+- !private ["SQ", "UIActivityIndicatorView"]
+- !private ["SQ", "activityIndicatorTag"]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "center"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "hidesWhenStopped"]
+- !private ["SQ", "init"]
+- !private ["SQ", "medium"]
+- !private ["SQ", "removeFromSuperview"]
+- !private ["SQ", "startAnimating"]
+- !private ["SQ", "stopAnimating"]
+- !private ["SQ", "subviews"]
+- !private ["SQ", "tag"]
+- !private ["SQ", "view"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "center"]
+- !private ["s23ExpressibleByNilLiteralP", "subviews"]
+- !private ["SH", "UIActivityIndicatorView"]
+- !private ["SH", "activityIndicatorTag"]
+- !private ["SH", "addSubview"]
+- !private ["SH", "center"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "hidesWhenStopped"]
+- !private ["SH", "init"]
+- !private ["SH", "medium"]
+- !private ["SH", "removeFromSuperview"]
+- !private ["SH", "startAnimating"]
+- !private ["SH", "stopAnimating"]
+- !private ["SH", "subviews"]
+- !private ["SH", "tag"]
+- !private ["SH", "view"]
+- !private ["SM", "filter"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", "UIActivityIndicatorView"]
+- !private ["So8NSCodingP", "activityIndicatorTag"]
+- !private ["So8NSCodingP", "addSubview"]
+- !private ["So8NSCodingP", "center"]
+- !private ["So8NSCodingP", "hidesWhenStopped"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "removeFromSuperview"]
+- !private ["So8NSCodingP", "startAnimating"]
+- !private ["So8NSCodingP", "stopAnimating"]
+- !private ["So8NSCodingP", "subviews"]
+- !private ["So8NSCodingP", "tag"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "UIActivityIndicatorView"]
+- !private ["So26NSExtensionRequestHandlingP", "activityIndicatorTag"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "UIActivityIndicatorView"]
+- ["So8NSObjectC", "activityIndicatorTag"]
+- !private ["So8NSObjectC", "addSubview"]
+- !private ["So8NSObjectC", "center"]
+- ["So8NSObjectC", "dismissLoading"]
+- !private ["So8NSObjectC", "hidesWhenStopped"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "removeFromSuperview"]
+- ["So8NSObjectC", "showLoading"]
+- !private ["So8NSObjectC", "startAnimating"]
+- !private ["So8NSObjectC", "stopAnimating"]
+- !private ["So8NSObjectC", "subviews"]
+- !private ["So8NSObjectC", "tag"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectP", "UIActivityIndicatorView"]
+- !private ["So8NSObjectP", "activityIndicatorTag"]
+- !private ["So8NSObjectP", "addSubview"]
+- !private ["So8NSObjectP", "center"]
+- !private ["So8NSObjectP", "hidesWhenStopped"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "removeFromSuperview"]
+- !private ["So8NSObjectP", "startAnimating"]
+- !private ["So8NSObjectP", "stopAnimating"]
+- !private ["So8NSObjectP", "subviews"]
+- !private ["So8NSObjectP", "tag"]
+- !private ["So8NSObjectP", "view"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "center"]
+- !private ["Sq", "subviews"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "first"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "first"]
+- !private ["SY", "medium"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIActivityIndicatorView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "activityIndicatorTag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "addSubview"]
+- !private ["7RxSwift18ReactiveCompatibleP", "center"]
+- !private ["7RxSwift18ReactiveCompatibleP", "hidesWhenStopped"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "removeFromSuperview"]
+- !private ["7RxSwift18ReactiveCompatibleP", "startAnimating"]
+- !private ["7RxSwift18ReactiveCompatibleP", "stopAnimating"]
+- !private ["7RxSwift18ReactiveCompatibleP", "subviews"]
+- !private ["7RxSwift18ReactiveCompatibleP", "tag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "view"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["So28UIActivityIndicatorViewStyleV", "medium"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "center"]
+- !private ["So29UIAccessibilityIdentificationP", "hidesWhenStopped"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "removeFromSuperview"]
+- !private ["So29UIAccessibilityIdentificationP", "startAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "stopAnimating"]
+- !private ["So29UIAccessibilityIdentificationP", "subviews"]
+- !private ["So29UIAccessibilityIdentificationP", "tag"]
+- !private ["So23UIActivityIndicatorViewC", "center"]
+- !private ["So23UIActivityIndicatorViewC", "hidesWhenStopped"]
+- !private ["So23UIActivityIndicatorViewC", "init"]
+- !private ["So23UIActivityIndicatorViewC", "removeFromSuperview"]
+- !private ["So23UIActivityIndicatorViewC", "startAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "stopAnimating"]
+- !private ["So23UIActivityIndicatorViewC", "tag"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "center"]
+- !private ["So12UIAppearanceP", "hidesWhenStopped"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "removeFromSuperview"]
+- !private ["So12UIAppearanceP", "startAnimating"]
+- !private ["So12UIAppearanceP", "stopAnimating"]
+- !private ["So12UIAppearanceP", "subviews"]
+- !private ["So12UIAppearanceP", "tag"]
+- !private ["So21UIAppearanceContainerP", "UIActivityIndicatorView"]
+- !private ["So21UIAppearanceContainerP", "activityIndicatorTag"]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- !private ["So21UIAppearanceContainerP", "center"]
+- !private ["So21UIAppearanceContainerP", "hidesWhenStopped"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "removeFromSuperview"]
+- !private ["So21UIAppearanceContainerP", "startAnimating"]
+- !private ["So21UIAppearanceContainerP", "stopAnimating"]
+- !private ["So21UIAppearanceContainerP", "subviews"]
+- !private ["So21UIAppearanceContainerP", "tag"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So18UIContentContainerP", "UIActivityIndicatorView"]
+- !private ["So18UIContentContainerP", "activityIndicatorTag"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "center"]
+- !private ["So17UICoordinateSpaceP", "hidesWhenStopped"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "removeFromSuperview"]
+- !private ["So17UICoordinateSpaceP", "startAnimating"]
+- !private ["So17UICoordinateSpaceP", "stopAnimating"]
+- !private ["So17UICoordinateSpaceP", "subviews"]
+- !private ["So17UICoordinateSpaceP", "tag"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "center"]
+- !private ["So13UIDynamicItemP", "hidesWhenStopped"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "removeFromSuperview"]
+- !private ["So13UIDynamicItemP", "startAnimating"]
+- !private ["So13UIDynamicItemP", "stopAnimating"]
+- !private ["So13UIDynamicItemP", "subviews"]
+- !private ["So13UIDynamicItemP", "tag"]
+- !private ["So18UIFocusEnvironmentP", "UIActivityIndicatorView"]
+- !private ["So18UIFocusEnvironmentP", "activityIndicatorTag"]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- !private ["So18UIFocusEnvironmentP", "center"]
+- !private ["So18UIFocusEnvironmentP", "hidesWhenStopped"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "removeFromSuperview"]
+- !private ["So18UIFocusEnvironmentP", "startAnimating"]
+- !private ["So18UIFocusEnvironmentP", "stopAnimating"]
+- !private ["So18UIFocusEnvironmentP", "subviews"]
+- !private ["So18UIFocusEnvironmentP", "tag"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "center"]
+- !private ["So11UIFocusItemP", "hidesWhenStopped"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "removeFromSuperview"]
+- !private ["So11UIFocusItemP", "startAnimating"]
+- !private ["So11UIFocusItemP", "stopAnimating"]
+- !private ["So11UIFocusItemP", "subviews"]
+- !private ["So11UIFocusItemP", "tag"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "center"]
+- !private ["So20UIFocusItemContainerP", "hidesWhenStopped"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "removeFromSuperview"]
+- !private ["So20UIFocusItemContainerP", "startAnimating"]
+- !private ["So20UIFocusItemContainerP", "stopAnimating"]
+- !private ["So20UIFocusItemContainerP", "subviews"]
+- !private ["So20UIFocusItemContainerP", "tag"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "center"]
+- !private ["So24UILargeContentViewerItemP", "hidesWhenStopped"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- !private ["So24UILargeContentViewerItemP", "removeFromSuperview"]
+- !private ["So24UILargeContentViewerItemP", "startAnimating"]
+- !private ["So24UILargeContentViewerItemP", "stopAnimating"]
+- !private ["So24UILargeContentViewerItemP", "subviews"]
+- !private ["So24UILargeContentViewerItemP", "tag"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIActivityIndicatorView"]
+- !private ["So30UIPasteConfigurationSupportingP", "activityIndicatorTag"]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- !private ["So30UIPasteConfigurationSupportingP", "center"]
+- !private ["So30UIPasteConfigurationSupportingP", "hidesWhenStopped"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "removeFromSuperview"]
+- !private ["So30UIPasteConfigurationSupportingP", "startAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "stopAnimating"]
+- !private ["So30UIPasteConfigurationSupportingP", "subviews"]
+- !private ["So30UIPasteConfigurationSupportingP", "tag"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "UIActivityIndicatorView"]
+- ["So11UIResponderC", "activityIndicatorTag"]
+- !private ["So11UIResponderC", "addSubview"]
+- !private ["So11UIResponderC", "center"]
+- ["So11UIResponderC", "dismissLoading"]
+- !private ["So11UIResponderC", "hidesWhenStopped"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "removeFromSuperview"]
+- ["So11UIResponderC", "showLoading"]
+- !private ["So11UIResponderC", "startAnimating"]
+- !private ["So11UIResponderC", "stopAnimating"]
+- !private ["So11UIResponderC", "subviews"]
+- !private ["So11UIResponderC", "tag"]
+- !private ["So11UIResponderC", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "UIActivityIndicatorView"]
+- !private ["So30UIResponderStandardEditActionsP", "activityIndicatorTag"]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- !private ["So30UIResponderStandardEditActionsP", "center"]
+- !private ["So30UIResponderStandardEditActionsP", "hidesWhenStopped"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "removeFromSuperview"]
+- !private ["So30UIResponderStandardEditActionsP", "startAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "stopAnimating"]
+- !private ["So30UIResponderStandardEditActionsP", "subviews"]
+- !private ["So30UIResponderStandardEditActionsP", "tag"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So16UIStateRestoringP", "UIActivityIndicatorView"]
+- !private ["So16UIStateRestoringP", "activityIndicatorTag"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So18UITraitEnvironmentP", "UIActivityIndicatorView"]
+- !private ["So18UITraitEnvironmentP", "activityIndicatorTag"]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- !private ["So18UITraitEnvironmentP", "center"]
+- !private ["So18UITraitEnvironmentP", "hidesWhenStopped"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "removeFromSuperview"]
+- !private ["So18UITraitEnvironmentP", "startAnimating"]
+- !private ["So18UITraitEnvironmentP", "stopAnimating"]
+- !private ["So18UITraitEnvironmentP", "subviews"]
+- !private ["So18UITraitEnvironmentP", "tag"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So23UIUserActivityRestoringP", "UIActivityIndicatorView"]
+- !private ["So23UIUserActivityRestoringP", "activityIndicatorTag"]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- !private ["So23UIUserActivityRestoringP", "center"]
+- !private ["So23UIUserActivityRestoringP", "hidesWhenStopped"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "removeFromSuperview"]
+- !private ["So23UIUserActivityRestoringP", "startAnimating"]
+- !private ["So23UIUserActivityRestoringP", "stopAnimating"]
+- !private ["So23UIUserActivityRestoringP", "subviews"]
+- !private ["So23UIUserActivityRestoringP", "tag"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "center"]
+- !private ["So6UIViewC", "hidesWhenStopped"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "removeFromSuperview"]
+- !private ["So6UIViewC", "startAnimating"]
+- !private ["So6UIViewC", "stopAnimating"]
+- !private ["So6UIViewC", "subviews"]
+- !private ["So6UIViewC", "tag"]
+- ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "UIActivityIndicatorView"]
+- ["So16UIViewControllerC", "activityIndicatorTag"]
+- ["So16UIViewControllerC", "dismissLoading"]
+- ["So16UIViewControllerC", "showLoading"]
+- !private ["So16UIViewControllerC", "view"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIActivityIndicatorView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activityIndicatorTag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "center"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hidesWhenStopped"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeFromSuperview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAnimating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "subviews"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIActivityIndicatorView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activityIndicatorTag"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "center"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hidesWhenStopped"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeFromSuperview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "stopAnimating"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subviews"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tag"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "center"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "subviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "center"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "hidesWhenStopped"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "removeFromSuperview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "startAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "stopAnimating"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "subviews"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "tag"]
+depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "So28UIActivityIndicatorViewStyleV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So23UIActivityIndicatorViewC"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- !private "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So16UIStateRestoringP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreData.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+GIF.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-umbrella.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ExtendedCacheData.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Metadata.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+ForceDecode.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImage.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImage.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIButton+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSButton+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView+WebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImageView+HighlightedWebCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDDiskCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDMemoryCache.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageFrame.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDefine.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheDefine.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSData+ImageContentType.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCacheConfig.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderConfig.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+Transform.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIView+WebCacheOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderOperation.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageTransition.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageRep.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoader.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloader.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageHEICCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGIFCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAPNGCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageAWebPCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageIOAnimatedCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoder.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCachesManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageLoadersManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCodersManager.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImagePrefetcher.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderResponseModifier.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderRequestModifier.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageTransformer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageCoderHelper.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDGraphicsImageRenderer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheKeyFilter.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImagePlayer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCacheSerializer.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageError.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageOptionsProcessor.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageIndicator.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageDownloaderDecryptor.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDImageGraphics.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MultiFormat.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDWebImageCompat.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Headers/RxRelay-Swift.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/UIImage+MemoryCacheCost.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/SDAnimatedImageView.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Headers/NSImage+Compatibility.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/SDWebImage/SDWebImage.framework/Modules/module.modulemap"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/elishanarida/Desktop/thirtyonedigital-test/DerivedData/thirtyonedigital-test/Build/Products/Debug-iphonesimulator/RxRelay/RxRelay.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.5.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e7d6b00362d3885f5411be16a0a5ae6e"

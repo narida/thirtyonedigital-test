@@ -18,7 +18,11 @@ final class UserTableViewModel: NSObject {
     var didReachedEnd = false
     private var page = 0
     
+    let isLoading = BehaviorRelay<Bool>(value: false)
+    let error = BehaviorRelay<Error?>(value: nil)
+    
     func loadUsers() {
+        isLoading.accept(true)
         didReachedEnd = false
         getUser()
     }
@@ -31,7 +35,7 @@ final class UserTableViewModel: NSObject {
             guard let strongSelf = self else { return }
             strongSelf.users.accept(strongSelf.users.value + data.users)
             strongSelf.didReachedEnd = data.users.count <= data.total
-            
+            self?.isLoading.accept(false)
         }, onError: { error in
             switch error {
             case ApiError.conflict:
@@ -43,6 +47,7 @@ final class UserTableViewModel: NSObject {
             default:
                 print("Unknown error:", error)
             }
+            self.isLoading.accept(false)
         })
         .disposed(by: disposeBag)
     }

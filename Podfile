@@ -9,6 +9,7 @@ target 'thirtyonedigital-test' do
 	    pod 'RxSwift', '~> 5'
 	    pod 'RxCocoa', '~> 5'
       pod 'Alamofire', '~> 5.2'
+      pod 'SDWebImage', '~> 5.0'
 
   target 'thirtyonedigital-testTests' do
     inherit! :search_paths
